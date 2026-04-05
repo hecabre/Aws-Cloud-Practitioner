@@ -1,0 +1,1 @@
+Es un software de capa de virtualizacion que gestiona y asigna recursos fisicos de hardware a multiples maquinas virtuales de forma aislada y segura.
