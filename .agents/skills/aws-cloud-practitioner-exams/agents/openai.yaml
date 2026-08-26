@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simulador AWS Cloud Practitioner"
+  short_description: "Crea exámenes desde tus notas de AWS"
+  default_prompt: "Usa $aws-cloud-practitioner-exams para crear un examen de simulación basado en mis notas."
