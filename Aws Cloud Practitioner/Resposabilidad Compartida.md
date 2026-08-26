@@ -1,2 +1,0 @@
-Aws opera, administrsta y controla los componentes del sistema operativo host y capa de virtualizacion hasta la seguridad fisica de las instalaciones.
-El cliente asume la responsabilidad y administracion del sistema operativo invidado, de cualquier otro software de aplicaciones asociado y de la configuracion del firewall del grupo de seguridad que ofrece AWS

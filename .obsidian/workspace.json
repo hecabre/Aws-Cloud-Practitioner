@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6dc2bff1d7a22b8f",
+        "id": "f5dc6c15e19f28cf",
         "type": "tabs",
         "children": [
           {
-            "id": "aaf98f6e0e6b38dd",
+            "id": "5ad31850bd6b2469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aws Cloud Practitioner/Tipos Instancias/Optimizadas para Almacenamiento.md",
+                "file": "administracion de tecnologias/Clase 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimizadas para Almacenamiento"
-            }
-          },
-          {
-            "id": "5acfe05cfe235436",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aws Cloud Practitioner/Tipos Instancias/Computacion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computacion"
+              "title": "Clase 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -179,8 +166,19 @@
               "icon": "lucide-list",
               "title": "Esquema de Bienvenido"
             }
+          },
+          {
+            "id": "d676c040798c8351",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,27 +193,45 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-spaced-repetition:Revisar Tarjetas": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "fe45def6f15888cf",
+  "active": "5ad31850bd6b2469",
   "lastOpenFiles": [
-    "Aws Cloud Practitioner/Tipos Instancias/Optimizadas para Almacenamiento.md",
-    "Sin título.md",
+    "Sin título.base",
+    "administracion de tecnologias/Clase 1.md",
+    "Excalidraw/Drawing 2026-08-25 16.35.36.excalidraw.md",
+    "Excalidraw",
+    "2026-08-25.md",
+    "AWS Cloud Practitioner/00 - Inicio.md",
+    "AWS Cloud Practitioner/Resumen Rápido.md",
+    "AWS Cloud Practitioner/Tenencia Múltiple.md",
+    "AWS Cloud Practitioner/Tipos de Instancias.md",
+    "AWS Cloud Practitioner/Modelo Cliente-Servidor.md",
+    "AWS Cloud Practitioner/Hipervisor.md",
+    "AWS Cloud Practitioner/Computación en la Nube.md",
+    "AWS Cloud Practitioner/Amazon EC2.md",
+    "AWS Cloud Practitioner/Tipos de Instancias/Uso General.md",
+    "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Memoria.md",
+    "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Almacenamiento.md",
+    "AWS Cloud Practitioner/Tipos de Instancias/Computación Acelerada.md",
+    "AWS Cloud Practitioner/Regiones y Zonas de Disponibilidad.md",
+    "administracion de tecnologias",
+    "AWS Cloud Practitioner/Responsabilidad Compartida.md",
+    "AWS Cloud Practitioner - Notas Consolidadas.md",
+    "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Cómputo.md",
+    "AWS Cloud Practitioner/Tipos de Instancias",
+    "AWS Cloud Practitioner",
     "Aws Cloud Practitioner/Tipos Instancias/Optimizadas para memoria.md",
-    "Aws Cloud Practitioner/Tipos Instancias/Uso general.md",
-    "Aws Cloud Practitioner/Tipos Instancias/Computacion.md",
+    "Aws Cloud Practitioner/Tipos Instancias/Optimizadas para Almacenamiento.md",
     "Aws Cloud Practitioner/Tipos Instancias/Computacion Acelerada.md",
-    "Aws Cloud Practitioner/Tipos de Instancias.md",
-    "Aws Cloud Practitioner/EC2.md",
-    "Aws Cloud Practitioner/Tipos Instancias",
-    "Aws Cloud Practitioner/Tenencia Multiple.md",
-    "Aws Cloud Practitioner/Leccion 2.md",
-    "Aws Cloud Practitioner/Hipervisor.md",
-    "Aws Cloud Practitioner/Resposabilidad Compartida.md",
-    "Aws Cloud Practitioner/Regiones.md",
+    "Aws Cloud Practitioner/Tipos Instancias/Computacion.md",
     "Aws Cloud Practitioner/Modelo Cliente Servidor.md",
-    "Bienvenido.md",
+    "Aws Cloud Practitioner/Resposabilidad Compartida.md",
+    "Modulo 1",
+    "Aws Cloud Practitioner/Tipos Instancias",
     "Aws Cloud Practitioner"
   ]
 }

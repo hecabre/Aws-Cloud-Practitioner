@@ -1,1 +1,0 @@
-Permite que varios clientes que son los tenants compartan la misma infrestructura fisica (servidores, redes) manteniendo sus datosy aplicaciones aislados logicamente.
