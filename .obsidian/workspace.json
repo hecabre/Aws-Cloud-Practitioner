@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Cloud Practitioner/Computación en la Nube.md",
+                "file": "AWS Cloud Practitioner/Modulo 2/AMI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computación en la Nube"
+              "title": "AMI"
             }
           }
         ]
@@ -200,39 +200,30 @@
   },
   "active": "5ad31850bd6b2469",
   "lastOpenFiles": [
-    "AWS Cloud Practitioner/Regiones y Zonas de Disponibilidad.md",
-    "AWS Cloud Practitioner/Responsabilidad Compartida.md",
-    "AWS Cloud Practitioner/Tipos de Instancias.md",
-    "AWS Cloud Practitioner/AMI.md",
-    "AWS Cloud Practitioner/Amazon EC2.md",
+    "AWS Cloud Practitioner/Modulo 2/Regiones y Zonas de Disponibilidad.md",
+    "AWS Cloud Practitioner/Modulo 2/Hipervisor.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias.md",
+    "AWS Cloud Practitioner/Modulo 1/Modelo Cliente-Servidor.md",
+    "AWS Cloud Practitioner/Modulo 1/Responsabilidad Compartida.md",
+    "AWS Cloud Practitioner/Modulo 1/Computación en la Nube.md",
+    "AWS Cloud Practitioner/Modulo 1/00 - Modulo 1.md",
+    "AWS Cloud Practitioner/Modulo 2/00 - Modulo 2.md",
+    "AWS Cloud Practitioner/Temario.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias/Optimizadas para Memoria.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias/Uso General.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias/Optimizadas para Cómputo.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias/Optimizadas para Almacenamiento.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias/Computación Acelerada.md",
+    "AWS Cloud Practitioner/Modulo 2/Tipos de Instancias",
+    "AWS Cloud Practitioner/Modulo 2/Tenencia Múltiple.md",
+    "AWS Cloud Practitioner/Modulo 2/Amazon EC2.md",
+    "AWS Cloud Practitioner/Modulo 2/AMI.md",
+    "AWS Cloud Practitioner/Modulo 2",
+    "AWS Cloud Practitioner/Modulo 1",
     "AWS Cloud Practitioner/00 - Inicio.md",
-    "AWS Cloud Practitioner/Computación en la Nube.md",
-    "AWS Cloud Practitioner/Hipervisor.md",
-    "AWS Cloud Practitioner/Modelo Cliente-Servidor.md",
-    "AWS Cloud Practitioner/Resumen Rápido.md",
-    "AWS Cloud Practitioner/Tenencia Múltiple.md",
-    "README.md",
     "Sin título.base",
-    "administracion de tecnologias/Clase 1.md",
-    "Excalidraw/Drawing 2026-08-25 16.35.36.excalidraw.md",
     "Excalidraw",
-    "2026-08-25.md",
-    "AWS Cloud Practitioner/Tipos de Instancias/Uso General.md",
-    "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Memoria.md",
-    "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Almacenamiento.md",
-    "AWS Cloud Practitioner/Tipos de Instancias/Computación Acelerada.md",
     "administracion de tecnologias",
-    "AWS Cloud Practitioner - Notas Consolidadas.md",
-    "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Cómputo.md",
-    "AWS Cloud Practitioner/Tipos de Instancias",
-    "AWS Cloud Practitioner",
-    "Aws Cloud Practitioner/Tipos Instancias/Optimizadas para memoria.md",
-    "Aws Cloud Practitioner/Tipos Instancias/Optimizadas para Almacenamiento.md",
-    "Aws Cloud Practitioner/Tipos Instancias/Computacion Acelerada.md",
-    "Aws Cloud Practitioner/Tipos Instancias/Computacion.md",
-    "Aws Cloud Practitioner/Modelo Cliente Servidor.md",
-    "Modulo 1",
-    "Aws Cloud Practitioner/Tipos Instancias",
-    "Aws Cloud Practitioner"
+    "AWS Cloud Practitioner"
   ]
 }

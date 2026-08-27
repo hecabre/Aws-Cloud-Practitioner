@@ -4,14 +4,10 @@ Notas de estudio en español para preparar la certificación **AWS Certified Clo
 
 ## Contenido
 
-Actualmente, las notas cubren:
+Actualmente, las notas cubren los primeros dos módulos del curso:
 
-- Fundamentos de la computación en la nube.
-- Modelo cliente-servidor.
-- Modelo de responsabilidad compartida.
-- Regiones y zonas de disponibilidad de AWS.
-- Amazon EC2, virtualización, hipervisores y tenencia múltiple.
-- Familias de instancias EC2 y sus principales casos de uso.
+- **Módulo 1 — Introducción a Amazon Web Services:** fundamentos de la nube, modelo cliente-servidor y responsabilidad compartida.
+- **Módulo 2 — Cómputo e infraestructura de AWS:** Amazon EC2, AMI, virtualización, tipos de instancias, precios, tenencia, regiones y zonas de disponibilidad.
 - Un resumen rápido para el repaso final.
 
 ## Cómo usar este repositorio
@@ -26,7 +22,7 @@ Actualmente, las notas cubren:
 
 2. Abre Obsidian y selecciona **Abrir carpeta como bóveda**.
 3. Elige la carpeta raíz del repositorio.
-4. Empieza por la nota [00 - Inicio](AWS%20Cloud%20Practitioner/00%20-%20Inicio.md).
+4. Empieza por la nota [00 - Inicio](AWS%20Cloud%20Practitioner/00%20-%20Inicio.md) y continúa con el [Temario](AWS%20Cloud%20Practitioner/Temario.md).
 
 Obsidian resolverá los enlaces internos con formato `[[Nombre de la nota]]` y permitirá explorar las relaciones entre temas mediante su vista de grafo.
 
@@ -44,28 +40,19 @@ También puedes leer las notas directamente en GitHub. Usa [00 - Inicio](AWS%20C
 ├── .obsidian/                       # Configuración de la bóveda
 ├── AWS Cloud Practitioner/
 │   ├── 00 - Inicio.md               # Índice principal
-│   ├── Computación en la Nube.md
-│   ├── Modelo Cliente-Servidor.md
-│   ├── Responsabilidad Compartida.md
-│   ├── Regiones y Zonas de Disponibilidad.md
-│   ├── Amazon EC2.md
-│   ├── Hipervisor.md
-│   ├── Tenencia Múltiple.md
-│   ├── Tipos de Instancias.md
-│   ├── Tipos de Instancias/          # Detalle de cada familia EC2
+│   ├── Temario.md                     # Programa e índices por módulo
+│   ├── Modulo 1/                     # Introducción a AWS
+│   ├── Modulo 2/                     # EC2 e infraestructura de AWS
+│   │   └── Tipos de Instancias/      # Detalle de cada familia EC2
 │   └── Resumen Rápido.md
 └── README.md
 ```
 
 ## Ruta de estudio sugerida
 
-1. [Computación en la Nube](AWS%20Cloud%20Practitioner/Computaci%C3%B3n%20en%20la%20Nube.md)
-2. [Modelo Cliente-Servidor](AWS%20Cloud%20Practitioner/Modelo%20Cliente-Servidor.md)
-3. [Responsabilidad Compartida](AWS%20Cloud%20Practitioner/Responsabilidad%20Compartida.md)
-4. [Regiones y Zonas de Disponibilidad](AWS%20Cloud%20Practitioner/Regiones%20y%20Zonas%20de%20Disponibilidad.md)
-5. [Amazon EC2](AWS%20Cloud%20Practitioner/Amazon%20EC2.md)
-6. [Tipos de Instancias](AWS%20Cloud%20Practitioner/Tipos%20de%20Instancias.md)
-7. [Resumen Rápido](AWS%20Cloud%20Practitioner/Resumen%20R%C3%A1pido.md)
+1. [Módulo 1 — Introducción a Amazon Web Services](AWS%20Cloud%20Practitioner/Modulo%201/00%20-%20Modulo%201.md)
+2. [Módulo 2 — Cómputo e infraestructura de AWS](AWS%20Cloud%20Practitioner/Modulo%202/00%20-%20Modulo%202.md)
+3. [Resumen Rápido](AWS%20Cloud%20Practitioner/Resumen%20R%C3%A1pido.md)
 
 ## Generar exámenes con Codex
 
@@ -75,7 +62,7 @@ El repositorio incluye la skill [`aws-cloud-practitioner-exams`](.agents/skills/
 Usa $aws-cloud-practitioner-exams para crear un examen de simulación basado en mis notas.
 ```
 
-La skill construye el temario desde las notas disponibles, genera el examen y su clave en archivos separados, y también permite calificar respuestas. Los simulacros se guardan en `AWS Cloud Practitioner/Exámenes de simulación/`.
+La skill usa `Temario.md` y los índices de módulo para distribuir las preguntas, genera el examen y su clave en archivos separados, y también permite limitar un simulacro a un módulo concreto. Los simulacros se guardan en `AWS Cloud Practitioner/Exámenes de simulación/`.
 
 ## Contribuciones
 

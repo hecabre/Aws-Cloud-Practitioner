@@ -24,7 +24,7 @@ Si el material no permite producir el número solicitado sin repetir o inventar,
 
 ## Construir el temario
 
-Antes de escribir el examen, construye un mapa del temario. Si existe una nota cuyo nombre contenga `Temario`, úsala como estructura principal. En caso contrario, usa `00 - Inicio.md`, sus secciones y sus wikilinks; completa esa estructura con las subcarpetas, encabezados y enlaces de las demás notas.
+Antes de escribir el examen, construye un mapa del temario. Usa `Temario.md` como estructura principal y los archivos `Modulo N/00 - Modulo N.md` como índices de cada módulo. Completa esa estructura con las subcarpetas, encabezados y enlaces de las demás notas. Si esos índices no existen, usa `00 - Inicio.md`, sus secciones y sus wikilinks.
 
 Identifica los temas principales, sus subtemas y las notas que los sustentan. Luego prepara internamente una distribución de preguntas de acuerdo con el temario:
 
@@ -33,6 +33,8 @@ Identifica los temas principales, sus subtemas y las notas que los sustentan. Lu
 - evita que una nota breve o repetitiva tenga el mismo peso que una unidad completa;
 - considera `Resumen Rápido.md` como recapitulación de otros temas, no como una unidad independiente;
 - si el usuario pide un tema, módulo o rango concreto, limita el temario y la distribución a ese alcance.
+
+Resuelve expresiones como `Módulo 2`, `Modulo 2` o `2` contra la carpeta `Modulo 2`. Un módulo incluye recursivamente todas sus notas, pero excluye su archivo de índice como fuente de hechos cuando solo repita enlaces o descripciones del temario.
 
 No conviertas los nombres de archivo en el temario sin revisar su contenido. La distribución debe representar lo estudiado, no solamente la cantidad de archivos.
 
