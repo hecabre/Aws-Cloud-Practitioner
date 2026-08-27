@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pulido de notas AWS"
+  short_description: "Revisa y pule notas AWS sin commit"
+  default_prompt: "Usa $aws-cloud-practitioner-notes-polisher para revisar y pulir mis notas AWS que todavía no he commiteado."

@@ -36,7 +36,7 @@ También puedes leer las notas directamente en GitHub. Usa [00 - Inicio](AWS%20C
 
 ```text
 .
-├── .agents/skills/                  # Skill local para generar simulacros
+├── .agents/skills/                  # Skills locales para exámenes y notas
 ├── .obsidian/                       # Configuración de la bóveda
 ├── AWS Cloud Practitioner/
 │   ├── 00 - Inicio.md               # Índice principal
@@ -54,15 +54,37 @@ También puedes leer las notas directamente en GitHub. Usa [00 - Inicio](AWS%20C
 2. [Módulo 2 — Cómputo e infraestructura de AWS](AWS%20Cloud%20Practitioner/Modulo%202/00%20-%20Modulo%202.md)
 3. [Resumen Rápido](AWS%20Cloud%20Practitioner/Resumen%20R%C3%A1pido.md)
 
-## Generar exámenes con Codex
+## Skills de Codex
 
-El repositorio incluye la skill [`aws-cloud-practitioner-exams`](.agents/skills/aws-cloud-practitioner-exams/SKILL.md). Codex la detecta automáticamente al trabajar dentro del repositorio y puedes invocarla con una petición como:
+El repositorio incluye tres skills que Codex detecta automáticamente al trabajar dentro de la bóveda:
+
+- [`aws-cloud-practitioner-exams`](.agents/skills/aws-cloud-practitioner-exams/SKILL.md): genera y califica simulacros basados únicamente en las notas.
+- [`aws-cloud-practitioner-notes-polisher`](.agents/skills/aws-cloud-practitioner-notes-polisher/SKILL.md): contrasta apuntes recientes con documentación oficial de AWS y corrige errores u omisiones materiales.
+- [`aws-cloud-practitioner-notes-formatter`](.agents/skills/aws-cloud-practitioner-notes-formatter/SKILL.md): mejora la estructura Markdown sin cambiar el significado técnico.
+
+### Generar un examen
 
 ```text
 Usa $aws-cloud-practitioner-exams para crear un examen de simulación basado en mis notas.
 ```
 
 La skill usa `Temario.md` y los índices de módulo para distribuir las preguntas, genera el examen y su clave en archivos separados, y también permite limitar un simulacro a un módulo concreto. Los simulacros se guardan en `AWS Cloud Practitioner/Exámenes de simulación/`.
+
+### Pulir notas recientes
+
+```text
+Usa $aws-cloud-practitioner-notes-polisher para revisar y pulir las notas sin commit del Módulo 2.
+```
+
+`polish` verifica conceptos con fuentes oficiales actuales de AWS, conserva el alcance de los apuntes y no hace staging, commit ni push.
+
+### Mejorar el formato
+
+```text
+Usa $aws-cloud-practitioner-notes-formatter para mejorar la estructura Markdown de las notas sin commit del Módulo 2.
+```
+
+`format` sólo reorganiza la presentación del contenido: no verifica ni amplía afirmaciones técnicas y tampoco ejecuta operaciones de Git.
 
 ## Contribuciones
 

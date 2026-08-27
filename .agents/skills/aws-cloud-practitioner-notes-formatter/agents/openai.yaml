@@ -1,0 +1,4 @@
+interface:
+  display_name: "Formato de notas AWS"
+  short_description: "Estructura notas AWS para estudiar mejor"
+  default_prompt: "Usa $aws-cloud-practitioner-notes-formatter para mejorar la estructura Markdown de un módulo, carpeta o nota AWS."
