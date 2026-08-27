@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "administracion de tecnologias/Clase 1.md",
+                "file": "AWS Cloud Practitioner/Computación en la Nube.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 1"
+              "title": "Computación en la Nube"
             }
           }
         ]
@@ -200,26 +200,28 @@
   },
   "active": "5ad31850bd6b2469",
   "lastOpenFiles": [
+    "AWS Cloud Practitioner/Regiones y Zonas de Disponibilidad.md",
+    "AWS Cloud Practitioner/Responsabilidad Compartida.md",
+    "AWS Cloud Practitioner/Tipos de Instancias.md",
+    "AWS Cloud Practitioner/AMI.md",
+    "AWS Cloud Practitioner/Amazon EC2.md",
+    "AWS Cloud Practitioner/00 - Inicio.md",
+    "AWS Cloud Practitioner/Computación en la Nube.md",
+    "AWS Cloud Practitioner/Hipervisor.md",
+    "AWS Cloud Practitioner/Modelo Cliente-Servidor.md",
+    "AWS Cloud Practitioner/Resumen Rápido.md",
+    "AWS Cloud Practitioner/Tenencia Múltiple.md",
+    "README.md",
     "Sin título.base",
     "administracion de tecnologias/Clase 1.md",
     "Excalidraw/Drawing 2026-08-25 16.35.36.excalidraw.md",
     "Excalidraw",
     "2026-08-25.md",
-    "AWS Cloud Practitioner/00 - Inicio.md",
-    "AWS Cloud Practitioner/Resumen Rápido.md",
-    "AWS Cloud Practitioner/Tenencia Múltiple.md",
-    "AWS Cloud Practitioner/Tipos de Instancias.md",
-    "AWS Cloud Practitioner/Modelo Cliente-Servidor.md",
-    "AWS Cloud Practitioner/Hipervisor.md",
-    "AWS Cloud Practitioner/Computación en la Nube.md",
-    "AWS Cloud Practitioner/Amazon EC2.md",
     "AWS Cloud Practitioner/Tipos de Instancias/Uso General.md",
     "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Memoria.md",
     "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Almacenamiento.md",
     "AWS Cloud Practitioner/Tipos de Instancias/Computación Acelerada.md",
-    "AWS Cloud Practitioner/Regiones y Zonas de Disponibilidad.md",
     "administracion de tecnologias",
-    "AWS Cloud Practitioner/Responsabilidad Compartida.md",
     "AWS Cloud Practitioner - Notas Consolidadas.md",
     "AWS Cloud Practitioner/Tipos de Instancias/Optimizadas para Cómputo.md",
     "AWS Cloud Practitioner/Tipos de Instancias",
@@ -229,7 +231,6 @@
     "Aws Cloud Practitioner/Tipos Instancias/Computacion Acelerada.md",
     "Aws Cloud Practitioner/Tipos Instancias/Computacion.md",
     "Aws Cloud Practitioner/Modelo Cliente Servidor.md",
-    "Aws Cloud Practitioner/Resposabilidad Compartida.md",
     "Modulo 1",
     "Aws Cloud Practitioner/Tipos Instancias",
     "Aws Cloud Practitioner"
