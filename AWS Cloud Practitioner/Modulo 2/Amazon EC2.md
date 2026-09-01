@@ -1,6 +1,7 @@
 # Amazon EC2
 
 **Amazon Elastic Compute Cloud (EC2)** ofrece máquinas virtuales en la nube. En AWS, cada máquina virtual se llama **instancia**.
+**Es un servicio no administrado.**
 
 Para lanzar una instancia se debe especificar una **[[AMI]]** compatible con el tipo de instancia elegido.
 

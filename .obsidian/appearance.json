@@ -1,1 +1,7 @@
-{}
+{
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "jetbrains-mono-bold"
+  ]
+}
