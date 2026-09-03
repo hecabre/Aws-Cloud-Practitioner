@@ -4,12 +4,13 @@ Notas de estudio en español para preparar la certificación **AWS Certified Clo
 
 ## Contenido
 
-Actualmente, las notas cubren los primeros cuatro módulos del curso:
+Actualmente, las notas cubren los primeros cinco módulos del curso:
 
 - **Módulo 1 — Introducción a Amazon Web Services:** fundamentos de la nube, modelo cliente-servidor y responsabilidad compartida.
 - **Módulo 2 — Cómputo e infraestructura de AWS:** Amazon EC2, AMI, virtualización, tipos de instancias, precios, tenencia, regiones y zonas de disponibilidad.
 - **Módulo 3 — Servicios de cómputo y aplicaciones modernas:** contenedores, servicios administrados, AWS Lambda, AWS Batch, AWS Elastic Beanstalk, AWS Fargate, AWS Outposts y Amazon Lightsail.
 - **Módulo 4 — Infraestructura global y automatización:** regiones, alta disponibilidad, red de borde, Amazon CloudFront, infraestructura como código y AWS CloudFormation.
+- **Módulo 5 — Redes de AWS:** Amazon VPC, subredes, tablas de enrutamiento, puertas de enlace, ACL, grupos de seguridad, DNS, Amazon Route 53, VPN, AWS Direct Connect y otros servicios de conectividad.
 - Un resumen rápido para el repaso final.
 
 ## Cómo usar este repositorio
@@ -48,6 +49,7 @@ También puedes leer las notas directamente en GitHub. Usa [00 - Inicio](AWS%20C
 │   │   └── Tipos de Instancias/      # Detalle de cada familia EC2
 │   ├── Modulo 3/                     # Cómputo y aplicaciones modernas
 │   ├── Modulo 4/                     # Infraestructura global y automatización
+│   ├── Modulo 5/                     # Redes y conectividad de AWS
 │   └── Resumen Rápido.md
 └── README.md
 ```
@@ -58,7 +60,8 @@ También puedes leer las notas directamente en GitHub. Usa [00 - Inicio](AWS%20C
 2. [Módulo 2 — Cómputo e infraestructura de AWS](AWS%20Cloud%20Practitioner/Modulo%202/00%20-%20Modulo%202.md)
 3. [Módulo 3 — Servicios de cómputo y aplicaciones modernas](AWS%20Cloud%20Practitioner/Modulo%203/)
 4. [Módulo 4 — Infraestructura global y automatización](AWS%20Cloud%20Practitioner/Modulo%204/00%20-%20Modulo%204.md)
-5. [Resumen Rápido](AWS%20Cloud%20Practitioner/Resumen%20R%C3%A1pido.md)
+5. [Módulo 5 — Redes de AWS](AWS%20Cloud%20Practitioner/Modulo%205/Resumen.md)
+6. [Resumen Rápido](AWS%20Cloud%20Practitioner/Resumen%20R%C3%A1pido.md)
 
 ## Skills de Codex
 
