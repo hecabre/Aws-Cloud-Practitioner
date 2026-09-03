@@ -21,7 +21,8 @@
               "title": "Resumen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
