@@ -33,6 +33,6 @@ La **redundancia** evita puntos únicos de falla al disponer de componentes alte
 
 ## Red global de borde
 
-Los puntos de presencia acercan ciertos servicios de AWS a los usuarios. Entre ellos se encuentran [[Amazon CloudFront]], Amazon Route 53 y AWS Global Accelerator.
+Los puntos de presencia acercan ciertos servicios de AWS a los usuarios. Entre ellos se encuentran [[AWS Cloud Practitioner/Modulo 4/Amazon CloudFront]], Amazon Route 53 y AWS Global Accelerator.
 
 AWS Outposts cumple un propósito diferente: extiende infraestructura y servicios de AWS a las instalaciones locales del cliente; no es una ubicación de borde de la red global.
