@@ -5,7 +5,7 @@ Este módulo estudia cómo la infraestructura global de AWS mejora la disponibil
 ## Notas
 
 1. [[Arquitectura global de AWS]]
-2. [[Amazon CloudFront]]
+2. [[AWS Cloud Practitioner/Modulo 4/Amazon CloudFront]]
 3. [[AWS CloudFormation]]
 
 ## Navegación
