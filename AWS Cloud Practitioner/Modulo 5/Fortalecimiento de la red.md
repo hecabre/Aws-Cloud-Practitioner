@@ -14,8 +14,9 @@ El grupo de seguridad controla el tráfico a nivel de instancia, por ejemplo, pa
 
 El grupo de seguridad predeterminado permite tráfico entrante desde otros recursos asociados al mismo grupo y permite todo el tráfico saliente. Sus reglas se pueden modificar según las necesidades.
 
+La seguridad se aplica por capas: las rutas determinan el camino, la ACL filtra el tráfico en el límite de la subred y el grupo de seguridad filtra el tráfico asociado al recurso. Para permitir una conexión, todos los controles relevantes deben permitir el tráfico.
+
 | Control | Nivel | Estado | Reglas |
 | --- | --- | --- | --- |
 | ACL de red | Subred | Sin estado | Permitir y denegar |
 | Grupo de seguridad | Instancia | Con estado | Solo permitir |
-
