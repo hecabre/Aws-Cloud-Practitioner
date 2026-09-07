@@ -3,5 +3,7 @@
   "monospaceFontFamily": "JetBrains Mono",
   "enabledCssSnippets": [
     "jetbrains-mono-bold"
-  ]
+  ],
+  "accentColor": "#5c82f5",
+  "theme": "obsidian"
 }
