@@ -13,8 +13,10 @@ Este módulo presenta los principales modelos de almacenamiento, los servicios d
 1. [[Amazon Elastic File System (EFS)]]
 2. [[Amazon FSx]]
 3. [[Amazon Elastic Block Store (EBS)]]
-4. [[Amazon S3]]
-5. [[AWS Storage Gateway]]
+4. [[Instantaneas de Amazon EBS|Instantáneas de Amazon EBS]]
+5. [[Amazon Data Lifecycle Manager]]
+6. [[Amazon S3]]
+7. [[AWS Storage Gateway]]
 
 ## Recuperación ante desastres
 

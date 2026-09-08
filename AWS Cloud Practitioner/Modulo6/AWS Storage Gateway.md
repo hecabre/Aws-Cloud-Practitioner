@@ -4,10 +4,10 @@ AWS Storage Gateway es un servicio de **almacenamiento híbrido** que conecta ap
 
 ## ¿Cómo funciona?
 
-Utiliza un dispositivo de gateway virtual o físico y mantiene una caché local para ofrecer acceso de baja latencia a los datos más utilizados.
+Se implementa como un dispositivo virtual, un dispositivo físico o una instancia de Amazon EC2. Según el tipo de gateway, utiliza almacenamiento local como caché o búfer para facilitar el acceso a los datos y su transferencia a AWS.
 
 Ofrece tres tipos principales de soluciones:
 
-- **Gateway de archivos:** proporciona acceso mediante NFS o SMB y almacena los datos en servicios como [[Amazon S3]].
-- **Gateway de volúmenes:** presenta volúmenes mediante iSCSI y permite almacenar copias de los datos en AWS.
-- **Gateway de cintas:** reemplaza bibliotecas de cintas físicas por cintas virtuales almacenadas en AWS.
+- **Gateway de archivos:** S3 File Gateway proporciona acceso mediante NFS o SMB y almacena los archivos como objetos en [[Amazon S3]]. FSx File Gateway proporciona acceso SMB a Amazon FSx for Windows File Server, aunque ya no está disponible para clientes nuevos.
+- **Gateway de volúmenes:** presenta almacenamiento en bloques mediante iSCSI y crea snapshots de los volúmenes en AWS.
+- **Gateway de cintas:** presenta una biblioteca de cintas virtuales mediante iSCSI y permite archivar las cintas virtuales en AWS.

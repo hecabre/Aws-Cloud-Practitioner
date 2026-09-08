@@ -9,7 +9,7 @@ El **almacenamiento de bloques** divide los datos en fragmentos de tamaño fijo 
 
 ## Opciones para Amazon EC2
 
-- **Almacén de instancias de [[Amazon EC2]]:** almacenamiento temporal de alto rendimiento conectado físicamente al host. Sus datos no persisten si la instancia se detiene, hiberna o termina.
+- **Almacén de instancias de [[Amazon EC2]]:** almacenamiento temporal conectado físicamente al host. Los datos persisten durante un reinicio, pero no si la instancia se detiene, hiberna o termina. No debe utilizarse como almacenamiento duradero.
 - **[[Amazon Elastic Block Store (EBS)]]:** proporciona volúmenes persistentes fuera de la instancia que se conectan a instancias EC2.
 
 Amazon EBS permite crear snapshots como copias de seguridad y cifrar los volúmenes. Con Elastic Volumes, también se puede aumentar el tamaño, cambiar el tipo o ajustar el rendimiento de un volumen compatible sin desconectarlo ni reiniciar la instancia.
