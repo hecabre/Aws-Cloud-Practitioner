@@ -7,6 +7,20 @@ Amazon Elastic Block Store (Amazon EBS) proporciona volúmenes persistentes de [
 - **Volumen raíz:** puede almacenar el sistema operativo y los programas de una instancia EC2.
 - **Volumen de datos:** permite guardar archivos y datos de aplicaciones.
 - **Copias de seguridad:** permite crear snapshots de un volumen en un momento determinado.
+## Diferencias respecto de Amazon EFS
+
+- Los volúmenes se conectan a instancias de [[Amazon EC2]].
+- Son recursos de una zona de disponibilidad.
+- El volumen y la instancia deben estar en la misma zona de disponibilidad.
+- La capacidad no crece automáticamente, aunque Elastic Volumes permite modificar el tamaño, el tipo y el rendimiento de volúmenes compatibles.
+
+## Optimización
+
+Existen distintos tipos de volumen EBS. Se puede elegir o modificar el tipo según las necesidades de latencia, IOPS, rendimiento de transferencia y costo de la carga.
+
+## Cuándo usar EBS
+
+Es apropiado para cargas que requieren almacenamiento persistente en bloques, como volúmenes de arranque, aplicaciones y bases de datos con operaciones frecuentes de lectura y escritura.
 
 ## Características
 

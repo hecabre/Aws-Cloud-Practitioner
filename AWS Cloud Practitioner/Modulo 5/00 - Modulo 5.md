@@ -44,4 +44,4 @@ Este módulo estudia cómo diseñar redes aisladas en AWS, controlar su tráfico
 - [[Modulo 4/00 - Modulo 4|Módulo 4 — Infraestructura global y automatización]]
 - [[Temario]]
 - [[00 - Inicio]]
-- [[Modulo6/00 - Modulo 6|Módulo 6 — Almacenamiento y recuperación]]
+- [[00 - Modulo 6|Módulo 6 — Almacenamiento y recuperación]]

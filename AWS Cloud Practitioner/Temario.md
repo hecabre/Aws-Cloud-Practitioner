@@ -43,7 +43,7 @@ Las notas están organizadas según los módulos cubiertos hasta ahora. Cada mó
 - DNS, Amazon Route 53 y servicios globales de entrega de tráfico.
 - Conexiones VPN, AWS Direct Connect, AWS PrivateLink y AWS Transit Gateway.
 
-## [[Modulo6/00 - Modulo 6|Módulo 6 — Almacenamiento y recuperación]]
+## [[00 - Modulo 6|Módulo 6 — Almacenamiento y recuperación]]
 
 - Diferencias entre almacenamiento de archivos, bloques y objetos.
 - Amazon EFS y Amazon FSx para almacenamiento de archivos.
