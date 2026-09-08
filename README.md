@@ -63,7 +63,7 @@ También puedes leer las notas directamente en GitHub. Usa [00 - Inicio](AWS%20C
 3. [Módulo 3 — Servicios de cómputo y aplicaciones modernas](AWS%20Cloud%20Practitioner/Modulo%203/00%20-%20Modulo%203.md)
 4. [Módulo 4 — Infraestructura global y automatización](AWS%20Cloud%20Practitioner/Modulo%204/00%20-%20Modulo%204.md)
 5. [Módulo 5 — Redes de AWS](AWS%20Cloud%20Practitioner/Modulo%205/00%20-%20Modulo%205.md)
-6. [Módulo 6 — Almacenamiento y recuperación](AWS%20Cloud%20Practitioner/Modulo6/00%20-%20Modulo%206.md)
+6. [Módulo 6 — Almacenamiento y recuperación](AWS%20Cloud%20Practitioner/Modulo%206/00%20-%20Modulo%206.md)
 7. [Resumen Rápido](AWS%20Cloud%20Practitioner/Resumen%20R%C3%A1pido.md)
 
 ## Skills de Codex
