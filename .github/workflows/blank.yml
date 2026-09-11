@@ -1,0 +1,37 @@
+name: Sincronizar notas con S3
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Obtener credenciales temporales de AWS
+        uses: aws-actions/configure-aws-credentials@v5
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - name: Comprobar identidad
+        run: aws sts get-caller-identity
+
+      - name: Sincronizar notas con S3
+        run: |
+          aws s3 sync . "s3://${{ vars.S3_BUCKET }}/obsidian/" \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude ".obsidian/*"
