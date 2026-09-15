@@ -37,7 +37,7 @@ Este módulo estudia cómo diseñar redes aisladas en AWS, controlar su tráfico
 
 1. [[Diagramas de AWS]]
 2. [[Ejemplos]]
-3. [[Resumen]]
+3. [[AWS Cloud Practitioner/Modulo 5/Resumen]]
 
 ## Navegación
 
