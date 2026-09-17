@@ -12,5 +12,5 @@
 | [[Amazon FSx]] | Proporciona sistemas de archivos administrados basados en Windows File Server, Lustre, NetApp ONTAP y OpenZFS. |
 | [[AWS Storage Gateway]] | Integra entornos locales con servicios de almacenamiento de AWS. |
 | [[S3 File Gateway]] | Proporciona acceso local mediante NFS o SMB a archivos almacenados como objetos de [[Amazon S3]], con caché local para los datos frecuentes. |
-| [[Tape Gateway]] | Presenta una biblioteca de cintas virtuales compatible con aplicaciones de copias de seguridad basadas en cinta y archiva cintas en AWS. |
-| [[Volume Gateway]] | Presenta volúmenes de almacenamiento en bloques mediante iSCSI y ofrece modos almacenado y en caché. |
+| [[AWS Storage Gateway|Tape Gateway]] | Presenta una biblioteca de cintas virtuales compatible con aplicaciones de copias de seguridad basadas en cinta y archiva cintas en AWS. |
+| [[AWS Storage Gateway|Volume Gateway]] | Presenta volúmenes de almacenamiento en bloques mediante iSCSI y ofrece modos almacenado y en caché. |
