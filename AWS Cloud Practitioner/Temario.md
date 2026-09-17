@@ -43,7 +43,7 @@ Las notas están organizadas según los módulos cubiertos hasta ahora. Cada mó
 - DNS, Amazon Route 53 y servicios globales de entrega de tráfico.
 - Conexiones VPN, AWS Direct Connect, AWS PrivateLink y AWS Transit Gateway.
 
-## [[00 - Modulo 6|Módulo 6 — Almacenamiento y recuperación]]
+## [[Modulo 6/00 - Modulo 6|Módulo 6 — Almacenamiento y recuperación]]
 
 - Diferencias entre almacenamiento de archivos, bloques y objetos.
 - Amazon EFS y Amazon FSx para almacenamiento de archivos.
@@ -51,6 +51,55 @@ Las notas están organizadas según los módulos cubiertos hasta ahora. Cada mó
 - Amazon S3 para almacenamiento de objetos.
 - AWS Storage Gateway para almacenamiento híbrido.
 - AWS Elastic Disaster Recovery para recuperar cargas de trabajo en AWS.
+
+## [[Modulo 7/00 - Modulo 7|Módulo 7 — Bases de datos]]
+
+- Bases de datos relacionales con Amazon RDS y Amazon Aurora.
+- Bases de datos NoSQL y especializadas con DynamoDB, DocumentDB y Neptune.
+- Caché en memoria con Amazon ElastiCache.
+- Copias de seguridad y migración de bases de datos.
+
+## [[Modulo 8/00 - Modulo 8|Módulo 8 — Análisis de datos, IA y ML]]
+
+- Canalizaciones, ETL, catalogación y análisis de datos.
+- Amazon Kinesis, Data Firehose, EMR, Glue, Athena, Redshift, OpenSearch y QuickSight.
+- Fundamentos de inteligencia artificial, machine learning y aprendizaje profundo.
+- IA generativa y servicios de IA prediseñados de AWS.
+
+## [[Modulo 9/00 - Modulo 9|Módulo 9 — Identidad y seguridad]]
+
+- Autenticación, autorización y administración de identidades con AWS IAM.
+- Cifrado, certificados y administración de secretos.
+- Protección contra ataques de red y aplicaciones.
+- Servicios de detección, investigación y postura de seguridad.
+
+## [[Modulo 10/00 - Modulo 10|Módulo 10 — Monitoreo, gobernanza y cumplimiento]]
+
+- Monitoreo, observabilidad y estado de los recursos.
+- Auditoría, configuración y evidencia de cumplimiento.
+- Gobernanza de múltiples cuentas y catálogos de servicios.
+- Recomendaciones operativas y administración de licencias.
+
+## [[Modulo 11/00 - Modulo 11|Módulo 11 — Precios, facturación y soporte]]
+
+- Principios y factores de precios de AWS.
+- Estimación, análisis, presupuestos y facturación consolidada.
+- Planes y recursos de AWS Support.
+- AWS Marketplace y AWS Partner Network.
+
+## [[Modulo 12/00 - Modulo 12|Módulo 12 — Migración a AWS]]
+
+- AWS Cloud Adoption Framework, fases y estrategias de migración.
+- Evaluación, descubrimiento y seguimiento de migraciones.
+- Migración de aplicaciones y bases de datos.
+- Transferencia de datos en línea y sin conexión.
+
+## [[Modulo 13/00 - Modulo 13|Módulo 13 — Servicios especializados y arquitectura]]
+
+- AWS Well-Architected Framework.
+- Servicios de desarrollo y entrega de software.
+- Servicios para aplicaciones empresariales.
+- Computación de usuario final e Internet de las cosas.
 
 ## Repaso transversal
 

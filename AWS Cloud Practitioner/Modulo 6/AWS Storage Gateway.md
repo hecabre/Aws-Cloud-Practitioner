@@ -7,8 +7,8 @@ AWS Storage Gateway es un servicio de **almacenamiento híbrido** que conecta ap
 Sus tres tipos principales son:
 
 1. [[S3 File Gateway]]
-2. [[Volume Gateway]]
-3. [[Tape Gateway]]
+2. [[AWS Storage Gateway|Volume Gateway]]
+3. [[AWS Storage Gateway|Tape Gateway]]
 
 ## ¿Cómo funciona?
 

@@ -14,7 +14,7 @@ Es un servicio que proporciona acceso bajo demanda a informes de seguridad y cum
 
 ### Acuerdos
 
-Permite revisar, aceptar y administrar determinados acuerdos para una cuenta individual o para las cuentas de una organización en [[AWS Organizations]], según el acuerdo y los permisos disponibles.
+Permite revisar, aceptar y administrar determinados acuerdos para una cuenta individual o para las cuentas de una organización en [[AWS Cloud Practitioner/Modulo 10/AWS Organizations]], según el acuerdo y los permisos disponibles.
 
 ### Informes
 
